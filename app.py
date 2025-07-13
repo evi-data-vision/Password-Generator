@@ -5,8 +5,8 @@ import nltk
 
 
 nltk.download('punkt')
-
 nltk.download('words')
+
 from nltk.corpus import words
 
 st.title('Password Generator!')
