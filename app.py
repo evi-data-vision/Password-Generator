@@ -3,6 +3,11 @@ import random
 import string
 import nltk
 
+try:
+    nltk.data.find('tokenizers/punkt')
+except nltk.downloader.DownloadError:
+    nltk.download('punkt')
+
 nltk.download('words')
 from nltk.corpus import words
 
