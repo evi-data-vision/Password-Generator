@@ -9,6 +9,7 @@ nltk.download('words')
 
 from nltk.corpus import words
 
+st.image('https://www.webwise.ie/wp-content/uploads/2016/01/Passwords-1024x512.png' , width = 100)
 st.title('Password Generator!')
 
 pass_type = st.radio('select your password type :' , ['PIN Code' , 'Random Password' , 'Memorable Password'] , index  = None)
