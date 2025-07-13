@@ -34,7 +34,7 @@ elif pass_type == 'Random Password' :
      st.write('Your Generated Password is : ' , password)
 
 elif pass_type == 'Memorable Password' :
-    seperator = st.selectbox('Seperator : ' , ['-' , '_' , ',' , '.'])
+    seperator = st.selectbox('Seperator : ' , ['-' , '_' , ',' , '.' , '+' , '*' , '/'])
     capitalize = st.toggle('Capitalize First Letter of Each Word')
     
     if capitalize :
